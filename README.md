@@ -49,14 +49,6 @@ Real-time apps with Firestore, focusing on efficient data access and scalability
 
 ---
 
-## 📊 GitHub Stats
-
-![Stats](https://github-readme-stats.vercel.app/api?username=Nirvishpatel47&show_icons=true&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nirvishpatel47&layout=compact&hide_border=true)
-
----
-
 ## 📂 Current Focus
 
 - Advanced FastAPI system design  
