@@ -1,70 +1,63 @@
-# Nirvish  
-Backend Engineer | Python • FastAPI • AI Systems
+# Hey, I'm Nirvish 👋
 
-I design and build scalable backend systems and AI-driven applications.  
-Focused on API architecture, RAG pipelines, and production-ready services using modern cloud stacks.
+**Backend & AI Systems Engineer** — I build production RAG pipelines, async APIs, and infrastructure that scales.
 
 ---
 
-## ⚙️ Tech Stack
+### What I Work With
 
-**Backend**
-- Python, FastAPI
-- REST APIs, Async Architecture
-- Authentication, Security, Rate Limiting
-
-**Database & Cloud**
-- Firebase, Firestore
-- Data Modeling, Query Optimization
-
-**AI / ML**
-- RAG (Retrieval-Augmented Generation)
-- LLM Integration
-- Vector Search Pipelines
-
-**Frontend / Mobile**
-- Flutter (cross-platform apps)
+```python
+stack = {
+    "backend":    ["Python", "FastAPI", "SQLAlchemy", "PostgreSQL"],
+    "AI / RAG":   ["Gemini", "Qdrant", "LangChain-core", "Embeddings"],
+    "infra":      ["Redis", "Docker", "Doppler", "Nginx"],
+    "secondary":  ["Flutter", "Firebase", "Dart"],
+}
+```
 
 ---
 
-## 🚀 Featured Work
+### Engineering Focus
 
-### 🔹 Scalable API Systems
-Production-ready backend services with authentication, structured routing, and optimized performance.
-
-### 🔹 AI / RAG Pipelines
-End-to-end implementations of retrieval-based AI systems with document ingestion, embeddings, and query pipelines.
-
-### 🔹 Firebase-Driven Applications
-Real-time apps with Firestore, focusing on efficient data access and scalability.
+- **RAG Pipelines** — sub-query decomposition, HyDE retrieval, semantic chunking, vector deduplication
+- **Async Backend** — non-blocking I/O end-to-end; `asyncio`, `run_in_executor`, connection pooling
+- **Multi-tenant Systems** — user-isolated vector search, JWT + Redis token blacklisting, Argon2 auth
+- **Caching Architecture** — Redis for metadata, rate limiting, session state, and LRU eviction strategies
+- **Secret Management** — Doppler-first, OS env fallback, `lru_cache`-bounded fetch cycles
 
 ---
 
-## 🧠 Engineering Focus
+### Featured Projects
 
-- Designing clean and maintainable backend architectures  
-- Building modular, reusable API systems  
-- Optimizing performance and scalability  
-- Applying AI in practical, production scenarios  
-
----
-
-## 📂 Current Focus
-
-- Advanced FastAPI system design  
-- Scaling RAG architectures  
-- Secure backend infrastructure  
-- Real-world product development  
+| Project | Stack | Highlights |
+|---------|-------|------------|
+| **DocuMind** | FastAPI · Qdrant · Gemini · Redis · PostgreSQL | Production RAG platform — HyDE search, semantic chunking, multi-tenant isolation |
+| **TeacherDesk** | Flutter · Firebase · Firestore | Batch/attendance/fee management for independent tutors |
 
 ---
 
-## 🔗 Connect
+### Currently Exploring
 
-- Portfolio: (https://crevoxega.github.io/Nirvish_Patel/)
-- Email: nirvishpatel489@gmail.com
+- Cross-encoder reranking for RAG precision
+- Streaming LLM responses over SSE
+- OpenTelemetry tracing for inference pipelines
+- Background task queues (ARQ / Celery) for async document ingestion
 
 ---
 
-## ⚡ Note
+### Stats
 
-Most repositories focus on real-world backend problems, system design, and AI integration rather than isolated demos.
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true)
+
+---
+
+### Reach Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_HANDLE)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:your@email.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://yoursite.com)
+
+---
+
+*Building systems that are correct first, fast second, and maintainable always.*
